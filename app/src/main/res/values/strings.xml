@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Distributed Auction System</string>
+    <string name="next_item">Next</string>
+    <string name="Post_an_auction">Post an Advertisement</string>
+    <string name="Submit_advertisement">Submit Advertisement</string>
+    <string name="ProductName">Product Name</string>
+    <string name="timelimit">Day limit</string>
+    <string name="Sellers_Price">Sellers Price</string>
+    <string name="Item_Condition">Item Condition</string>
+    <string name="previous_item">Prev</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="NameofProduct"><b>Name of the project</b></string>
+    <string name="MinBid">Minimum bidding amount</string>
+    <string name="RecentBid">Current Bid:</string>
+    <string name="ItemCondition">Item Condition:</string>
+    <string name="TimeLeft">Time Left:</string>
+    <string name="TotalBids">Total number of Bids:</string>
+    <string name="DescriptionProduct">Description of the Product:</string>
+    <string name="ImageitemSold">Image of item for Sale</string>
+    <string name="Place_Bid_btn_txt">  Place Bid  </string>
+    <string name="Submit_Application">Application Status</string>
+    <string name="Apply_Now">Apply Now</string>
+    <string name="logo">UniversityLogo</string>
+    <string name="Student_ID">Student ID</string>
+    <string name="Type_Housing"><u>Select Housing Type</u></string>
+    <string name="Type_Apartment"><u>Select Apartment</u></string>
+    <string name="Type_Residence_Hall"><u>Select Reidence Hall</u></string>
+    <string name="show_details_housing">Show Details</string>
+    <string name="Password">Password</string>
+    <string name="Application_ID">Application ID</string>
+    <string name="Sign_In">  Sign In</string>
+    <string name="Date_Format">Month/Day/Year</string>
+    <string name="Contract_to_date"><u>Contract Expiry Date</u></string>
+    <string name="Submit_application_Details">Submit Application</string>
+    <string name="Enter_student_ID"><u>Enter Student ID</u></string>
+    <string name="Floor_Plans">Floor Plans</string>
+    <string name="get_details"><u>Get the Details</u></string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third_detals_screen">third_detals_screen</string>
+        <string name="title_activity_activity_after_login">activity_after_login</string>
+        <string name="title_activity_post_an_ad">post_an_ad</string>
+
+
+    <string-array name="Item_Condition_options">
+        <item>Old</item>
+        <item>New</item>
+
+    </string-array>
+
+</resources>

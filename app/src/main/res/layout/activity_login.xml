@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/Background"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/universityicon" />
+
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/Orange"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtTxtStdID"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="100dp"
+                android:background="@color/White"
+                android:ems="10"
+                android:gravity="center"
+                android:inputType="text"
+                android:labelFor="@+id/edtTxtStdID"
+                android:text="Username"
+                android:textColor="@color/Black"
+                android:textStyle="bold" />
+
+            <EditText
+
+                android:id="@+id/edtTxtPass"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/White"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:labelFor="@+id/edtTxtPass"
+                android:text="@string/Password"
+                android:textColor="@color/Black" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:hint="Password"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/layout1"
+                android:gravity="center"
+                android:onClick="LoginBtnClick"
+                android:text="@string/Sign_In"
+                android:textColor="@color/Black" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

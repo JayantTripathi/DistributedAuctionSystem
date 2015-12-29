@@ -1,0 +1,211 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:orientation="vertical"
+    tools:context="com.example.superuser.distributedauctionsystemreal.activity_after_login">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/universityicon" />
+
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/Orange"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/White"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+           >
+
+
+            <TextView
+                android:id="@+id/txt_view_product_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/NameofProduct"
+                android:textColor="@color/Black"
+                android:textSize="20dp" />
+            <ImageView
+                android:id="@+id/image_vw_Product_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/ImageitemSold"
+
+                android:adjustViewBounds="false" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:text="@string/TotalBids"
+                    android:textColor="@color/Black"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/txt_vw_Totalbids"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+
+                    android:textColor="@color/Black"
+                    android:textSize="15dp" />
+
+            </TableRow>
+
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+
+                        android:text="@string/ItemCondition"
+                        android:textColor="@color/Black"
+                        android:textSize="15dp" />
+
+
+                    <TextView
+                        android:id="@+id/txt_vw_itemCondition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+
+
+                        android:textColor="@color/Black"
+                        android:textSize="15dp" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="start"
+                        android:text="@string/TimeLeft"
+                        android:textColor="@color/Black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/txt_vw_timeleft"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:layout_gravity="start"
+                        android:textColor="@color/Black"
+                        android:textSize="15dp" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:text="@string/RecentBid"
+                        android:textColor="@color/Black"
+                        android:textSize="15dp" />
+
+                    <TextView
+                        android:id="@+id/txt_vw_currentbid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+
+                        android:textColor="@color/Black"
+                        android:textSize="15dp" />
+                </TableRow>
+
+
+            </TableLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@drawable/layout1"
+                android:onClick="PlaceyourBid"
+                android:text="Place your Bid"
+                android:textColor="@color/White"></Button>
+
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:stretchColumns="2">
+
+
+                <TableRow>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="start"
+                        android:background="@drawable/layout1"
+                        android:onClick="NextProduct"
+                        android:text="@string/next_item"
+                        android:textColor="@color/White"></Button>
+
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:background="@drawable/layout1"
+
+                        android:text="@string/Post_an_auction"
+                        android:textColor="@color/White"
+                        android:onClick="PostanAd"
+                       ></Button>
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginLeft="3dp"
+                        android:background="@drawable/layout1"
+                        android:onClick="PreviousProduct"
+                        android:text="@string/previous_item"
+                        android:textColor="@color/White"></Button>
+                </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

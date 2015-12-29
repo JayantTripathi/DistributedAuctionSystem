@@ -1,0 +1,13 @@
+<resources>
+    <color name="Orange">#DC5D26</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Background">#F1EACD</color>
+    <color name="Black">#4C4C4C</color>
+    <color name="Red">#ff0000</color>
+    <color name="Blue">#D1DDE9</color>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>
